@@ -1,0 +1,100 @@
+body{
+    background-image: url("C:/Users/bruno/Documents/programas/MiWeb/images/highway-background1.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment: fixed;
+    margin: 0;
+    background-position-y: -300px ;
+    color:azure;
+    height: 774px;
+}
+.top-page{
+    padding: 8px;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+    #logo{
+    width: 80px;
+    position: absolute;
+    left: 50px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /* width: 375px; */
+}
+ul li{
+list-style: none;
+margin-right: 8%;
+
+}
+ul li a{
+    width: 100px;
+    display: block;
+    text-align: center;
+}
+ul li:hover{
+    list-style: none;
+    margin-right: 8%;
+    background-color:#ffff;
+    transition: 0.3s; 
+    color: rgba(0, 0, 0);
+}
+
+ul li a{
+    width: 100px;
+    display: block;
+    text-align: center;
+}
+ul li a:hover{
+    width: 100px;
+    display: block;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    transition: 0.1s; 
+    
+}
+.button{
+    padding: 4%;
+    border: 1px solid #ffff;
+    border-radius: 0.5rem;
+    }
+    
+.button-link{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Poppins', serif;
+    }
+main{
+    width: 600px;
+    height: 500px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 10% 0 0% 30%;
+}
+
+.contacto h1{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Work Sans', sans serif;
+}
+
+.datos{
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans serif ;
+}
+.datos span{
+    margin-top: 2%;
+}
+.datos span a{
+    font-family: 'Poppins', sans serif ;
+    text-decoration: none;
+    color: aliceblue;
+}

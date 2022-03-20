@@ -1,0 +1,133 @@
+body{
+    background-image: url("C:/Users/bruno/Documents/programas/MiWeb/images/highway-background1.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment: fixed;
+    margin: 0;
+    
+    background-position-y: -300px ;
+    color:azure;
+    height: 774px;
+}
+.top-page{
+    padding: 8px;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 9%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+    #logo{
+    width: 80px;
+    position: absolute;
+    left: 50px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /* width: 375px; */
+}
+ul li{
+list-style: none;
+margin-right: 8%;
+
+}
+ul li a{
+    width: 100px;
+    display: block;
+    text-align: center;
+}
+ul li:hover{
+    list-style: none;
+    margin-right: 8%;
+    background-color:#ffff;
+    transition: 0.3s; 
+    color: rgba(0, 0, 0);
+}
+
+ul li a{
+    width: 100px;
+    display: block;
+    text-align: center;
+}
+ul li a:hover{
+    width: 100px;
+    display: block;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    transition: 0.1s; 
+    
+}
+#join{
+    display: inline;
+}    
+.button{
+padding: 4%;
+border: 1px solid #ffff;
+border-radius: 0.5rem;
+}
+
+.button-link{
+text-decoration: none;
+color: aliceblue;
+font-family: 'Poppins', serif;
+}
+.top-page{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 15%;
+}
+.title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+    margin-bottom: 1%;
+    width: 490px;
+}
+.title2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    width: 500px;
+    margin: 10% 0 5% 22%;
+    padding: 1% 10% 1% ;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 0.25rem;
+}
+
+.linetime{
+    display: flex;
+}
+
+.timeline{
+    position: relative;
+    margin-bottom: 15% ;
+}
+.timeline-pic{
+    position: absolute;
+    background-color: #cacfd6;
+    padding: 0.5%;
+    border-radius: 0.5rem;
+    width: 50px;
+    top: 0px;
+    left: -80px;
+}
+.timeline h2{
+    font-family: 'Poppins', sans-serif;
+}
+.timeline span{
+    font-family: 'Work Sans', sans-serif;
+}
+.timeline p{
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    padding: 5%;
+}
